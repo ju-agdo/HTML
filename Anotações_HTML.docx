@@ -1,0 +1,20 @@
+ -> HTML
+  Linguagem de marcação de hypertexto usada
+  para criação de páginas na web.
+  Criada entre 1989 e 1990 para compartilhar
+  pesdwuisas cientificas entre Tim Berners-Lee
+  e seus colegas.
+  Ficou populas junto com a internet.
+-> O HTML usa Tags
+-> A descrição em cima do texto constando como <!DOCTYPE html> 
+significa que está informando para o browser que estamos usando
+o HTML5.
+-> A tag <head> </head>  no HTML é a parte da cabeça e a tag
+<body> </body> é a parte do corpo, onde fica todo o conteúdo 
+do site.
+-> Documentação MDN da Mozilla, na parte de elementos tem
+as tags que podemos usar.
+-> Tags básicas do HTML
+Temos o h1 que define o tamanho da fonte, temos do h1 que é
+o maior até o h6 que é o menor
+

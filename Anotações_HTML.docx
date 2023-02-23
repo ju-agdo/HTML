@@ -41,4 +41,5 @@ vai ser alterado somente naquele bloco.
 O Span <span></span> serve para grifar somente o campo da palavra
 desejado, diferente do div que grifa toda a linha, o span grifa/preenche
 o fundo somente da palavea que está dentro de span.
+Para saber todos os atributos disponíveis no HTML posso ir na documentação do W3Schools
 

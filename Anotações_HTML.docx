@@ -17,4 +17,28 @@ as tags que podemos usar.
 -> Tags básicas do HTML
 Temos o h1 que define o tamanho da fonte, temos do h1 que é
 o maior até o h6 que é o menor
+-> No HTML existem dois tipos de listas, as ordenadas e as 
+não ordenadas.
+Listas ordenadas: tem uma progressão como:
+1 -Mercurio
+2 -Venus
+3 -Terra
+4 -Marte
+5 - ...
+Mostra as proximidades dos planetas com o sol
+Listas não ordenadas: não existe uma ordem entre as informações
+exibidas
+Jupiter
+Saturno
+MarteUrano
+....
+Por exemplo nesse caso só demonstra os planetas do nosso sistema
+solar, sem ter uma ordem específica
+-> Organizando nosso código com Divs e Span
+A Div <div></div> serve para criar blocos no código e todas as
+alterações que eu fizer, como por exemplo trocar a cor do fundo
+vai ser alterado somente naquele bloco.
+O Span <span></span> serve para grifar somente o campo da palavra
+desejado, diferente do div que grifa toda a linha, o span grifa/preenche
+o fundo somente da palavea que está dentro de span.
 

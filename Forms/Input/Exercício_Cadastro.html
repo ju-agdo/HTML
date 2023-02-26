@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cadastro da Liga dos Astronautas</title>
+  </head>
+  <body>
+    <h3>Cadastro da Liga dos Astronautas</h3>
+    <form action="">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="password">- Passoword:</label>
+      <input type="password" id="password" name="password" /><br /><br />
+
+      <label for="date">Data de Nascimento:</label>
+      <input type="date" id="date" name="date" />
+
+      <label for="photo">- Foto:</label>
+      <input type="file" id="photo" name="photo" /><br /><br />
+
+      <label for="nationality"> Nacionalidade:</label>
+      <select name="nationality" id="nationality">
+        <option value="russo">Russo</option>
+        <option value="americano">Americano</option>
+        <option value="brasileiro">Brasileiro</option>
+      </select>
+
+      <label for="genero"> - Sexo:</label>
+      <input type="radio" id="fem" name="genero" value="fem" />
+      <label for="fem">Feminino</label>
+      <input type="radio" id="mas" name="genero" value="mas" />
+      <label for="mas">Masculino</label> <br /><br />
+
+      Suas principais qualidades: <br />
+      <input type="checkbox" id="qualid1" name="qualid1" value="inteligencia" />
+      <label for="qualid1"> | Inteligência </label>
+      <input type="checkbox" id="qualid2" name="qualid2" value="resiliencia" />
+      <label for="qualid2"> | Resiliência</label>
+      <input type="checkbox" id="qualid3" name="qualid3" value="preparfisico" />
+      <label for="qualid3"> | Preparo físico </label>
+      <input type="checkbox" id="qualid4" name="qualid4" value="educacao" />
+      <label for="qualid4"> | Educação </label><br /><br />
+
+      <textarea
+        name="description"
+        id="description"
+        rows="10"
+        cols="30"
+        placeholder=" Porque você gostaria de ser um astronauta?"
+      ></textarea
+      ><br /><br />
+
+      <button type="button" onclick="alert('Cadastro concluído!')">
+        Criar
+      </button>
+    </form>
+  </body>
+</html>

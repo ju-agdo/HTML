@@ -48,4 +48,22 @@ Documentação W3Schools
 
 Forms são campos que recebem as entradas dos usuários (inputs)inputs é a tag de entrada
 
+    Como fazer as validações no forms?
+
+Existem as validações, que é para verificar se os campos foram devidamente preenchidos.
+Por exemplo, no código montado em Exemplo_Forms.html se não preenchermos a caixinha (input)
+e clicarmso em pesquisar, vai nos direcionar para o Google, conforme link inserido. 
+Para tornarmos esse preenchimento obrigatório é necessário fazer uma validação, essa é realizada 
+por meio do atributo required, o required é para obrigar o usuário a preencher um campo.
+Na minha linha de <input type="text" id="q"... insero no final o atributo required>
+<input type="text" id="q" name="q" placeholder="Nasa, SpaceX" required/>
+Existe também a validação do campo do tito e-mail, se colocar na minha type="email" e no campo de pesquisa do
+input colocar um nome qualquer, vai retornar um erro informando que um e-mail contém @. Da mesma forma se o meu 
+type="number' e colocar algo diferente de número, vai dar erro, ainda é possível realizar uma condição, colocar um minímo 
+ou máximo.
+Para colocar a condição de min e max, sõ acrescentar no final da linha do input min="0" max="10">
+Na W3Schools tem a documentação sobre validação(vai estar na paste de input attributes)
+Todos os campos "quadradinhos" que preenchemos nos sites são os inputs
+Os checkbooks para "ticar", a opção para enviar/adicionar arquivo tem nos inputs também.
+
 
